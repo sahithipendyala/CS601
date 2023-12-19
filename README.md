@@ -1,6 +1,14 @@
-# CS601
+# IS601
 Final 
 IS_601_Finalproject
+
+# FINAL BUSINESS ANALYSIS
+here! [here](./FINAL BUSINESS ANALYSIS.md)!
+
+# Detailed User Stories, UX Design and Technology Research
+here! [here](./UXdesign_Technology Research.md)!
+
+Check my [test document](./FINAL BUSINESS ANALYSIS.md)!
 
 # Meeting Sign-In Sheet
 
