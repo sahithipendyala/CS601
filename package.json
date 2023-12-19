@@ -30,5 +30,5 @@
     "type": "git",
     "url": "https://github.com/vercel/next.js",
     "directory": "packages/create-next-app"
-  },
+  }
 }
