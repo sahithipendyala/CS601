@@ -4,7 +4,6 @@ import Menu from "@/components/Menu";
 import Services from "@/components/Services";
 import Survey from "@/components/Survey";
 import Script from 'next/script';
-import MailchimpForm from "@/components/MailchimpForm";
 
 export default function Home() {
   return (
@@ -28,11 +27,7 @@ export default function Home() {
       <Featured />
       <Services />
       <Menu />
-      <Survey />
-      <form >
-            <MailchimpForm/>
-        </form>
-        
+      <Survey />       
     </main>
     </>
   );
