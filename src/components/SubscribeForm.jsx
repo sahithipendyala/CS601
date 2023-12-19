@@ -1,21 +1,26 @@
-// components/MailchimpForm.js
+// components/SubscribeForm.js
+
 import React from 'react';
 
-const MailchimpForm = () => {
+const SubscribeForm = () => {
   return (
     <div id="mc_embed_shell">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
+      <link
+        href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
+        rel="stylesheet"
+        type="text/css"
+      />
       <style type="text/css">
         {`
           #mc_embed_signup {
             background: #fff;
+            false;
             clear: left;
             font: 14px Helvetica, Arial, sans-serif;
             width: 600px;
           }
-
           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         `}
       </style>
       <div id="mc_embed_signup">
@@ -34,8 +39,14 @@ const MailchimpForm = () => {
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-              <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required="" value="" />
-              <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
+              <input
+                type="email"
+                name="EMAIL"
+                className="required email"
+                id="mce-EMAIL"
+                required=""
+                value=""
+              />
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-FNAME">First Name </label>
@@ -51,7 +62,12 @@ const MailchimpForm = () => {
             </div>
             <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
               {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */}
-              <input type="text" name="b_9c6c5523b284c176465ff6c9e_8f58fa7c66" tabIndex="-1" value="" />
+              <input
+                type="text"
+                name="b_9c6c5523b284c176465ff6c9e_8f58fa7c66"
+                tabIndex="-1"
+                value=""
+              />
             </div>
             <div className="optionalParent">
               <div className="clear foot">
@@ -69,14 +85,7 @@ const MailchimpForm = () => {
                         className="refferal_badge"
                         src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                         alt="Intuit Mailchimp"
-                        style={{
-                          width: '220px',
-                          height: '40px',
-                          display: 'flex',
-                          padding: '2px 0px',
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                        }}
+                        style={{ width: '220px', height: '40px', display: 'flex', padding: '2px 0px', justifyContent: 'center', alignItems: 'center' }}
                       />
                     </span>
                   </a>
@@ -87,14 +96,18 @@ const MailchimpForm = () => {
         </form>
       </div>
       <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-      <script
-        type="text/javascript"
-        dangerouslySetInnerHTML={{
-          __html: `(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);`,
-        }}
-      ></script>
+      <script type="text/javascript">
+        {`
+          (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';
+          }(jQuery));
+          var $mcj = jQuery.noConflict(true);
+        `}
+      </script>
     </div>
   );
 };
 
-export default MailchimpForm;
+export default SubscribeForm;
