@@ -121,7 +121,7 @@ const MailchimpSubscribeForm: React.FC = () => {
             var $mcj = jQuery.noConflict(true);
           `,
         }}
-      ></script>
+        async ></script>
     </div>
   );
 };
