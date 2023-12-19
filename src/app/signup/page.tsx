@@ -38,7 +38,7 @@ const MailchimpSubscribeForm: React.FC = () => {
                 name="EMAIL"
                 className="required email"
                 id="mce-EMAIL"
-                required=""
+                // required=""
                 value=""
               />
             </div>
