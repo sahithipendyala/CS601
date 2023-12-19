@@ -14,7 +14,7 @@ Competitor 3: QuickBite Pizzeria
    - Archetype: Efficient and Affordable
    - Methods of Persuasion: Quick service, affordable pricing, and online ordering for convenience.
 
-## 2. SWOT Analysis for Your Italian Restaurant:
+## 2. SWOT Analysis:
 - Strengths: Unique 1920s gangster theme, specialized meatball focus, engaging methods of persuasion (reciprocity, social proof, scarcity).
 - Weaknesses: Potential niche appeal, initial challenge in building awareness.
 - Opportunities: Growing interest in experiential dining, potential for viral social media marketing, the flexibility of themed promotions.
