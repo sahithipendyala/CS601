@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "npm run build && next start",
-    "postinstall": "echo 'It worked!'"
+    "build": "pnpm tsc -d -p tsconfig.json",
+    "prepublishOnly": "cd ../../ && turbo run build",
+    "dev": "pnpm tsc -d -w -p tsconfig.json"
   },
   "dependencies": {
     "@types/node": "20.4.5",
@@ -28,7 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/next.js",
-    "directory": "packages/create-next-app"
+    "url": "https://github.com/vercel/next.js"
   }
 }
