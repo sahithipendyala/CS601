@@ -1,5 +1,5 @@
 // components/Signup.js
-//import MailchimpForm from "@/components/MailchimpForm";
+import MailchimpForm from "@/components/MailchimpForm";
 import Link from "next/link";
 
 const Signup = () => {
@@ -9,7 +9,7 @@ const Signup = () => {
       <div style={{ backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', padding: '20px', width: '300px' }}>
 
         <form >
-            {/* <MailchimpForm/> */}
+            <MailchimpForm/>
         </form>
         
       </div>
