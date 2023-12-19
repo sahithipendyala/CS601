@@ -1,4 +1,6 @@
-import React from 'react';
+import Image from "next/image";
+import React from "react";
+import Link from "next/link";
 
 const MailchimpSubscribeForm: React.FC = () => {
   return (
@@ -74,7 +76,7 @@ const MailchimpSubscribeForm: React.FC = () => {
                         borderRadius: '4px',
                       }}
                     >
-                      <img
+                      <Image
                         className="refferal_badge"
                         src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                         alt="Intuit Mailchimp"
