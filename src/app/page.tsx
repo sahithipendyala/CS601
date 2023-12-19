@@ -7,24 +7,28 @@ import Script from 'next/script';
 
 export default function Home() {
   return (
-    <div className="container">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-RLYCHQ2HBG" />
-      <Script id="google-analytics">
+    <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-RLYCHQ2HBG"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-RLYCHQ2HBG');
         `}
       </Script>
-    </div>
-    <main>
+
+      <main>
       <Hero />
       <Featured />
       <Services />
       <Menu />
       <Survey />
     </main>
+    </>
   );
 }
