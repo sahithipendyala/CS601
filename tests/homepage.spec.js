@@ -3,7 +3,6 @@ const { test, expect } = require('@playwright/test');
 
 const resumeURL = 'https://cs-601.vercel.app/'; // Replace with the URL of the student's resume page
 
-
 /* This test checks that the page title is not empty */
 test('Check Page Title', async ({ page }) => {
   await page.goto(resumeURL);
