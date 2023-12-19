@@ -3,12 +3,10 @@ Final
 IS_601_Finalproject
 
 # FINAL BUSINESS ANALYSIS
-here! [here](./FINAL BUSINESS ANALYSIS.md)!
+[here](./FINAL_BUSINESS_ANALYSIS.md)!
 
 # Detailed User Stories, UX Design and Technology Research
-here! [here](./UXdesign_Technology Research.md)!
-
-Check my [test document](./FINAL BUSINESS ANALYSIS.md)!
+[here](./UXdesign_Technology_Research.md)!
 
 # Meeting Sign-In Sheet
 
