@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 const MailchimpForm = () => {
     return (
+        <>
         <div id="mc_embed_shell">
           <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
           <style type="text/css">
@@ -93,6 +94,7 @@ const MailchimpForm = () => {
             }}
           ></script>
         </div>
+        </>
       );
     };
 
