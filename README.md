@@ -8,6 +8,9 @@ IS_601_Finalproject
 # Detailed User Stories, UX Design and Technology Research
 [here](./UXdesign_Technology_Research.md)!
 
+# Design
+[here](./FINAL_BUSINESS_ANALYSIS.md)!
+
 # Meeting Sign-In Sheet
 
 Each student should put an 'X' under their name on the days they have meetings.
